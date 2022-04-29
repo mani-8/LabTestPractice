@@ -6,8 +6,8 @@ public class BinarySearch {
 	public static void main(String args[]){
 		
         int arr[],mid,fst_index,lst_index;	
-		arr =new int[] {2,3,7,10,12,15,53}; 
-		
+		arr =new int[] {2,3,15,53,10,12,7}; 
+		Arrays.sort(arr);
 		for(int i=0;i<arr.length;i++) {
 			System.out.print(arr[i]+" ");
 		}
